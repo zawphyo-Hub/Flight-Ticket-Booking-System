@@ -1,5 +1,5 @@
 # Introduction to Sky-Asia-Website
-Technologies Used: PHP, PhpMyAdmin, JavaScript (Full Stack)
+Technologies Used: PHP, JavaScript (Full Stack)
 
 Description
 Sky Asia Express is a dynamic flight ticket booking system designed to streamline the process of booking and managing flight tickets. The system is built using a combination of front-end and back-end technologies, providing a smooth experience for both customers and administrators. (admin username - admin , password - sae12345)
