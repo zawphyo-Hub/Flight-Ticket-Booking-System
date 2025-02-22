@@ -17,18 +17,19 @@
         <div class="h-content">
             <h2>Are You Ready For </h1>
             <h2><span>Take off</span> With SkyAsia Express?</h2>
+            <img class="SAEhome" src="images/SAEhome.png" alt="Home picture">
             
         </div>       
                
         <div class="skyPlane"> 
            
-        <div class="backgroundSky">
+        <!-- <div class="backgroundSky">
             
             <img src="images/sky2.jpg" alt="sky photo">
         </div>
         <div class="backgroundPlane">
             <img src="images/plane1.png" alt="plane photo">
-        </div>  
+        </div>   -->
         </div>
         
     </div>
