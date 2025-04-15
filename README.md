@@ -1,4 +1,4 @@
-# Flight Booking System (Sky Asia Express) 
+# Flight Ticket Booking System (Sky Asia Express) 
 Technologies: Php | JavaScript | PhpMyAdmin(MySQL)
 
 ## Project Overview
