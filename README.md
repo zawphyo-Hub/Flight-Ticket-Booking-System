@@ -59,6 +59,6 @@ Password: sae12345
 
 ---
 
-## Final Thoughts
+## Evaluation
 Sky Asia Express was built as a portfolio-level project to demonstrate full-stack web development skills. It simulates the workflow of actual airline booking systems while offering a smooth interface for both users and admins.
 
