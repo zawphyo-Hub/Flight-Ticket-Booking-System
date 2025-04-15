@@ -1,41 +1,64 @@
-# Introduction to Sky-Asia-Website
-Technologies Used: PHP, JavaScript (Full Stack)
+# Flight Booking System (Sky Asia Express) 
+Technologies: Php | JavaScript | PhpMyAdmin(MySQL)
 
-Description
-Sky Asia Express is a dynamic flight ticket booking system designed to streamline the process of booking and managing flight tickets. The system is built using a combination of front-end and back-end technologies, providing a smooth experience for both customers and administrators. (admin username - admin , password - sae12345)
+## Project Overview
+Sky Asia Expressis a dynamic full-stack web application that simulates a real-world flight ticket booking system. It allows users to search for flights, book one-way or round-trip tickets, and manage passenger information. The platform also features an admin panel for managing schedules and flight details.
+> **Admin Access**  
+Username: admin  
+Password: sae12345
 
-This project features an advanced flight search functionality, allowing users to filter results by departure time, destination, passenger numbers, flight class, and trip type (one-way or round trip). It simulates the behavior of real-world flight booking websites, ensuring that users can find and book flights efficiently.
+---
 
-The system is integrated with PhpMyAdmin to manage the flight schedules and passenger information, ensuring that the booking process is powered by a robust database.
-
-# Important Note
-As this is not a real-world business, the data to search the flights may be limited. 
-Here are the sample data which can be used to search flight.
-
-For One way Ticket
-
-(1) From Bangkok (Thailand) -> Yangon (Myanmar), Date - 2024-Nov-11, Class - Economy
-
-(1) From Yangon (Myanmar) -> Bangkok (Thailand), Date - 2024-Nov-17, Class - Economy
-
-(3) From Osaka (Japan) -> Soul (Korea), Date - 2024-Nov-02, Class - Business
-
-(4) From  Soul (Korea) -> Osaka (Japan), Date - 2024-Nov-07, Class - Business
-
-(5) From Kuala Lumpur (Malaysia) -> Surabaya (Indonesia), Date - 2024-Nov-08, Class - Economy
-
-For Round Trip Ticket
-
-(1) From Bangkok (Thailand) -> Yangon (Myanmar), Date - 2024-Nov-11 , Class - Economy
-    <--- Return Date ---> Date - 2024-Nov-17
-
-(2) From Osaka (Japan) -> Soul (Korea), Date - 2024-Nov-02 , Class - Business
-    <--- Return Date ---> Date - 2024-Nov-07
+## Key Features
+(1) Advanced **flight search** with filters for:
+  - Departure & arrival locations
+  - Dates (one-way or round-trip)
+  - Flight class (Economy / Business)
+  - Passenger Numbers and Passenger Types (Adult,Child,Kid)
     
-(3) From Kuala Lumpur (Malaysia) -> Surabaya (Indonesia), Date - 2024-Nov-08, Class - Economy
-    <--- Return Date ---> Date - 2024-Nov-13
+(2) **Admin interface** for:
+  - Adding flight schedules
+  - Viewing bookings
+  - Managing flight data
+    
+---
 
+## Sample Flight Data for Testing
 
+> Since this is a demo project, the available search data is limited. Use the following values when testing the booking system:
 
+### One-Way Tickets
+| From | To | Date | Class |
+|------|----|------|-------|
+| Bangkok (Thailand) | Yangon (Myanmar) | 2024-Nov-11 | Economy |
+| Yangon (Myanmar) | Bangkok (Thailand) | 2024-Nov-17 | Economy |
+| Osaka (Japan) | Seoul (Korea) | 2024-Nov-02 | Business |
+| Seoul (Korea) | Osaka (Japan) | 2024-Nov-07 | Business |
+| Kuala Lumpur (Malaysia) | Surabaya (Indonesia) | 2024-Nov-08 | Economy |
 
+### Round-Trip Tickets
+| From | To | Depart Date | Return Date | Class |
+|------|----|-------------|-------------|-------|
+| Bangkok(Thailand) | Yangon(Myanmar) | 2024-Nov-11 | 2024-Nov-17 | Economy |
+| Osaka(Japan)| Seoul(Korea) | 2024-Nov-02 | 2024-Nov-07 | Business |
+| Kuala Lumpur(Malaysia) | Surabaya(Indonesia) | 2024-Nov-08 | 2024-Nov-13 | Economy |
+
+---
+
+## 📚 Lessons Learned
+- Gained hands-on experience with PHP backend development and MySQL integration using PhpMyAdmin.
+- Learned how to use PHP's echo statements effectively to display dynamic content like flight schedules.
+- Understood how to pass parameters between pages as I need to carry the data that users enter to search flights to different pages.
+- Developed a admin functionalities such as Add, Update, Delete using PHP.
+  
+---
+
+## ❌ Mistakes Made
+- Initially struggled with passing parameters across different pages, especially maintaining selected flight data.
+- Did not structure PHP files in a modular way, which made the code harder to manage as the project grew.
+
+---
+
+## Final Thoughts
+Sky Asia Express was built as a portfolio-level project to demonstrate full-stack web development skills. It simulates the workflow of actual airline booking systems while offering a smooth interface for both users and admins.
 
