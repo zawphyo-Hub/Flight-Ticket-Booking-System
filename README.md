@@ -1,5 +1,5 @@
-# Flight Ticket Booking System (Sky Asia Express) 
-Technologies: Php | JavaScript | PhpMyAdmin
+# Flight Ticket Booking System
+Technologies: Php , JavaScript , PhpMyAdmin
 
 ## Project Overview
 Sky Asia Expressis a dynamic full-stack web application that simulates a real-world flight ticket booking system. It allows users to search for flights, book one-way or round-trip tickets, and manage passenger information. The platform also features an admin panel for managing schedules and flight details.
@@ -8,6 +8,17 @@ Username: admin
 Password: sae12345
 
 ---
+
+## Entity Relationship Diagram
+
+![saeERD drawio](https://github.com/user-attachments/assets/4fcf2ce6-d13f-48ce-9976-ad64ed4e4634)
+
+<br> <br>
+## Sequence Diagram
+
+![SAE_sequence drawio](https://github.com/user-attachments/assets/3a6a2946-bb61-4fb5-af07-73d35148c867)
+
+<br> <br>
 
 ## Key Features
 (1) Advanced **flight search** with filters for:
